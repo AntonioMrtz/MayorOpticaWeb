@@ -227,11 +227,31 @@ body{
     padding-top: 5%;
 }
 
+#street-map-phone,#satellite-map-phone{
+
+    display:none;
+}
+
 @media (max-width:990px){
 
     #header{
 
         display: none;
+    }
+
+    #street-map,#satellite-map{
+
+        display:none;
+    }
+
+    #street-map-phone,#satellite-map-phone{
+
+        display:grid;
+    }
+
+    #satellite-map-phone{
+
+        padding-top: 10%;
     }
 
 }

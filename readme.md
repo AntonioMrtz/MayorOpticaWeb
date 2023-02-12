@@ -5,9 +5,9 @@
 - Meter seccion llama sin compromiso o manda correo
 - Incluir formulario correo mayoroptica
 - Acabar redes sociales y en general el footer
-- Cambiar favicon a nuevo logo
 - Poner WEB en google maps
 - Avisar de que diga siempre que pongan una valoracion
+- GEO mapas cuando muy pequeño se salen del contenedor
 
 
 # IMPORTANTE
