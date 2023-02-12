@@ -6,6 +6,8 @@
 - Incluir formulario correo mayoroptica
 - Acabar redes sociales y en general el footer
 - Cambiar favicon a nuevo logo
+- Poner WEB en google maps
+- Avisar de que diga siempre que pongan una valoracion
 
 
 # IMPORTANTE

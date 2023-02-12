@@ -18,15 +18,15 @@ html {
     padding: 0;
 }
 
-/* #header img{
+#header img{
 
+    height: 20em;
     width: 100%;
-    height: auto;
-    background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     
-} */
+} 
 
 .navbar-brand{
 
@@ -76,15 +76,6 @@ body{
    
 }
 
-#header img{
-
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-
-}
 
 .geo{
 
@@ -231,3 +222,16 @@ body{
     color: var(--blanco) !important; 
 }
 
+#satellite-map{
+
+    padding-top: 5%;
+}
+
+@media (max-width:990px){
+
+    #header{
+
+        display: none;
+    }
+
+}
