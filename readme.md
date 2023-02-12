@@ -8,6 +8,10 @@
 - Cambiar favicon a nuevo logo
 
 
+# IMPORTANTE
+
+- Modificar para que en movil se vea bien
+
 # IDEAS
 
 - Imagenes animacion apareciendo
