@@ -7,8 +7,7 @@
 - Acabar redes sociales y en general el footer
 - Poner WEB en google maps
 - Avisar de que diga siempre que pongan una valoracion
-- GEO mapas cuando muy pequeño se salen del contenedor
-
+- Enlace a valoracion de la optica¿¿¿¿
 
 # IMPORTANTE
 
@@ -18,3 +17,5 @@
 
 - Imagenes animacion apareciendo
 - Animacion imagen conocenos se da la vuelta y cambia a otra con tiempo
+- QR en óptica dentro para que te lleve a valoracion
+- QR fuera para llevar a web 
