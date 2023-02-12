@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mayor Óptica Web</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+    <link rel="icon" href="imgs/logo_png_color.png">
+
+</head>
+
+<body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+
+    <header class="container-fluid" id="header">
+        <img src="imgs/header_virtual.png" />
+    </header>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: var(--negro);">
+        <nav class="navbar">
+            <div class="container">
+                <a href="#home" class="navbar-brand">
+                    <img src="imgs/logo_png_color.png" alt="" class="img_nav">
+                </a>
+            </div>
+        </nav>
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#home" style="color:var(--naranja);">Mayor Óptica</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#conocenos" style="color: #F3ECFF;">Conócenos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#localizacion" style="color: #F3ECFF;">Localización</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact" style="color: #F3ECFF;">Contacto</a>
+                    </li>
+
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container-sm" id="carousel">
+        <div class="container-sm" id="carousel2">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active img-fluid">
+                    <img src="imgs/header.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="imgs/carousel2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="imgs/sample_3.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="imgs/optica_fremte.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    </div>
+
+
+
+    <!-- Conocenos -->
+
+
+    <div class="container-lg conocenos" id="conocenos">
+
+        <h2>Conócenos</h2>
+
+        <div class="row">
+            <div class="col-md-6 how-img">
+                <img src="imgs/sample.jpg" class="rounded img-fluid" alt="" />
+            </div>
+
+            <div  class="col-md-6 prueba">
+                <h4>Urban Dictionary</h4>
+                <h4 class="subheading">Todas las definiciones del diccionario urbano más usado al alcance de tu
+                    mano.</h4>
+                <p class="text-muted">Para la consulta de palabras específicas con el comando !definition se ha
+                    usado la API pública proporcionada por Urban Dictionary a través de la cual se obtiene una
+                    estructura JSON con los diferentes datos. Se ha necesitado realizar un estudio del formato para
+                    de peticiones a la API además de obtener los conocimientos necesarios para tratar los JSON y los
+                    datos proporcionados.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 prueba">
+                <h4>OP.GG</h4>
+                <h4 class="subheading">Toda la información de cualquier invocador o campeoón del juego</h4>
+                <p class="text-muted">Con respecto a OPGG actualmente contamos con la función de obtención del
+                    perfil del invocador así como de las runas para un determinado campeón con los comandos !opgg y
+                    !runes respectivamente. Se ha realizado un estudio de los diferentes formatos de URLs que
+                    utiliza la página así como los numerosos casos especiales tales como nombres con carácteres
+                    especiales y con varias palabras entre otros. Para la obtención del perfil de invocador se ha
+                    realizado scrapping para la búsqueda de la foto correspondiente al perfil y para las runas de un
+                    campeón se ha investigado el formato de URLS para las fotos de los campeones usadas en la página
+                    oficial de League of Legends.</p>
+            </div>
+            <div class="col-md-6 how-img">
+                <img src="imgs/sample2.jpg" class="rounded img-fluid" alt="" />
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- GEO -->
+
+
+    <div class="container-md geo" id="localizacion">
+
+        <div class="container-md" id="loc-p">
+
+            <div id="header-localizacion">
+
+                <h2>Localización</h2>
+    
+                <img src="imgs/gps.png">
+
+            </div>
+
+    
+            <p>
+    
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+            </p>
+
+
+        
+
+
+        <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+            <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div>
+            <script>(function () {
+                    var setting = { "height": 557, "width": 792, "zoom": 17, "queryString": "Mayor Óptica, Calle Mayor, Puente Tocinos, España", "place_id": "ChIJ6xPwueOCYw0Rx-PgYnn6YJo", "satellite": false, "centerCoord": [37.99505883749687, -1.0972249854042992], "cid": "0x9a60fa7962e0e3c7", "lang": "es", "cityUrl": "/spain/murcia-18290", "cityAnchorText": "Mapa de Murcia, Province of Murcia, España", "id": "map-9cd199b9cc5410cd3b1ad21cab2e54d3", "embed_id": "877671" };
+                    var d = document;
+                    var s = d.createElement('script');
+                    s.src = 'https://1map.com/js/script-for-user.js?embed_id=877671';
+                    s.async = true;
+                    s.onload = function (e) {
+                        window.OneMap.initMap(setting)
+                    };
+                    var to = d.getElementsByTagName('script')[0];
+                    to.parentNode.insertBefore(s, to);
+                })();</script><a href="https://1map.com/es/map-embed">1 Map</a>
+        </div>
+
+    </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+    <div class="container-fluid" id="form">
+
+        <div class="container-md" id="contact">
+
+            
+            <h1>Formulario de Contacto</h1>
+            <form id="contact_form" name="contact_form" action="https://formspree.io/f/moqrwpev" method="POST" >
+                <div class="mb-5 row">
+                    <div class="col">
+                        <label>Primer Nombre</label>
+                        <input type="text" required maxlength="50" class="form-control" id="first_name" name="first_name">
+                    </div>
+                    <div class="col">
+                        <label>Apellidos</label>
+                        <input type="text" required maxlength="50" class="form-control" id="last_name" name="last_name">
+                    </div>
+                </div>
+                <div class="mb-5 row">
+                    <div class="col">
+                        <label for="email_addr">Email</label>
+                        <input type="email" required maxlength="50" class="form-control" id="email_addr" name="email"
+                            placeholder="email@ejemplo.com">
+                    </div>
+                    <div class="col">
+                        <label for="phone_input">Teléfono</label>
+                        <input type="tel" required maxlength="50" class="form-control" id="phone_input" name="Phone"
+                            placeholder="Phone">
+                    </div>
+                </div>
+                <div class="mb-5">
+                    <label for="message">Mensaje</label>
+                    <textarea class="form-control" id="message" name="message" rows="5"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary px-4 btn-lg">Post</button>
+            </form>
+
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start text-white" style="background-color:var(--negro)">
+        <section class="d-flex justify-content-between p-4" style="background-color:rgb(62, 60, 60)">
+            <div class="me-5">
+                <span>Conecta con nosotros :</span>
+            </div>
+            <div>
+                <a href="" class="text-white me-4">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="" class="text-white me-4">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="" class="text-white me-4">
+                    <i class="fab fa-google"></i>
+                </a>
+                <a href="" class="text-white me-4">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="" class="text-white me-4">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="" class="text-white me-4">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </section>
+
+        <section  class="">
+            <div class="container text-center text-md-start mt-5">
+                <div class="row mt-3">
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold">Mayor Óptica Puente Tocinos</h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                            style="width: 60px; background-color: #7c4dff; height: 2px" />
+                        <p>
+                            Tu Óptica de confianza ahora más cerca que nunca
+                        </p>
+                    </div>
+
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold">Otros enlaces útiles</h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                            style="width: 60px; background-color: #7c4dff; height: 2px" />
+                        <p>
+                            <a href="https://www.instagram.com/antonio_martin3z/" target="_blank"
+                                class="text-white">Instagram</a>
+                        </p>
+                        <p>
+                            <a href="https://github.com/AntonioMrtz" target="_blank" class="text-white">Github</a>
+                        </p>
+                        <p>
+                            <a href="https://antoniomrtz.github.io/Antonio-Martinez-Portafolio/" target="_blank"
+                                class="text-white">Portfolio</a>
+                        </p>
+
+                    </div>
+
+
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <h6 class="text-uppercase fw-bold">Contacto</h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                            style="width: 60px; background-color: #7c4dff; height: 2px" />
+                        <p><i class="fas fa-home mr-3"></i>Puente Tocinos , Murcia ES</p>
+                        <p><i class="fas fa-envelope mr-3"></i> mayoroptica@hotmail.com</p>
+                        <p><i class="fas fa-envelope mr-3"></i> 968 30 23 25</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <div class="text-center p-3" style="background-color:black">
+            © 2022 Copyright:
+            <a class="text-white" href="https://antoniomrtz.github.io/Antonio-Martinez-Portafolio/">Antonio
+                Martínez
+                Fernández</a>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>
