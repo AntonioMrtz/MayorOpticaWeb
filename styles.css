@@ -313,4 +313,15 @@ body{
         
     }
 
+    #conocenos{
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .prueba{
+        order: 1;
+    }
+
 }
