@@ -1,52 +1,47 @@
-html {
+/************* GLOBSAL ***************************/
 
-    scroll-behavior: smooth;
-    --negro: #0f0f0f;
-    --naranja:#e9820d;
-    --blanco:#fefefa;
+:root{
     
+    --negro: #0f0f0f;
+    --naranja: #e9820d;
+    --blanco: #fefefa;
+    scroll-behavior: smooth;
+    
+    
+}
 
+body {
 
+    background-image: url(imgs/background-new.jpg);
+    background-repeat: no-repeat;
 
 }
 
-/* GLOBAL */
+/************* HEADER ***************************/
 
-/* HEADER */
-
-/* NAVBAR */
-
-/* CAROUSEL */
-
-/* CONÓCENOS */
-
-/* GEO */
-
-/* FORM */
-
-/* FOOTER */
-
-/* MEDIA QUERIES */
-
-#header{
+#header {
 
     min-width: 100%;
     min-height: 100%;
     margin: 0;
     padding: 0;
+
 }
 
-#header img{
+#header img {
 
     height: 20em;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
-} 
 
-.navbar-brand{
+}
+
+
+/************* NAVBAR ***************************/
+
+.navbar-brand {
 
     max-width: 50%;
     margin-right: 10px;
@@ -60,129 +55,36 @@ html {
 
 }
 
-.navbar .container-fluid{
+.navbar .container-fluid {
 
     padding-left: 0;
 }
 
-.nav-link{
+.nav-link {
 
     padding-top: 0px;
     padding-bottom: 0px;
 }
 
-body{
+#tlf {
 
-   background-image: url(imgs/background-new.jpg);
-   background-repeat:no-repeat;
-    
+    padding-right: 100px;
 }
 
-#form{
+/************* CAROUSEL ***************************/
 
-    background-color: #0f0f0f;
-    padding:5% ;
-}
+#carousel {
 
-
-#carousel{
-
-   padding: 5%;
-   background-image: url(imgs/fondo-naranja-textura.png);
-   min-width: 100%;
-   
-}
-
-
-.geo{
-
-    display: flex;
-    flex-direction:column;
-    align-items: center;
-}
-
-.conocenos{
-
-    padding: 100px;
-    background-color: var(--negro);
-    min-width: 100%;
-
-}
-
-
-.geo{
-
-    background-image: url(imgs/background.jpg);
-    min-width: 100%;
     padding: 5%;
+    background-image: url(imgs/fondo-naranja-textura.png);
+    min-width: 100%;
+
 }
 
-#form h1,label{
-
-    color: #fefefa;
-    background-color: var(--negro);
-}
-
-#carousel2{
+#carousel2 {
 
     max-width: 75%;
     max-height: 90%;
-}
-
-.conocenos .row{
-
-    padding-bottom: 100px;
-}
-
-
-.conocenos .how-img{
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-}
-
-.conocenos h2{
-
-    text-align: center;
-    padding-bottom: 10%;
-    color: var(--naranja);
-    font-size: 60px;
-}
-
-#form h1{
-
-    color: var(--naranja);
-    padding-bottom: 10%;
-}
-
-#localizacion h2{
-
-    padding-bottom: 3%;
-    text-align: center;
-    color: var(--blanco);
-    font-size: 60px;
-    color: var(--blanco);
-}
-
-#localizacion p{
-
-    
-    color: var(--blanco);
-    padding-bottom: 3%;
-}
-
-#loc-p{
-
-    background-color: #0f0f0f;
-    margin-bottom: 2%;
-    padding: 10%;
-    border-radius: 25px;
-
-    display: flex;
-    flex-direction:column;
-    align-items: center;
 }
 
 .carousel-item img {
@@ -204,13 +106,114 @@ body{
     height: 75vh;
 }
 
-#header-localizacion{
+/************* CONÓCENOS ***************************/
+
+.conocenos {
+
+    padding: 100px;
+    background-color: var(--negro);
+    min-width: 100%;
+
+}
+
+
+.conocenos .row {
+
+    padding-bottom: 100px;
+}
+
+
+.conocenos .how-img {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.conocenos h2 {
+
+    text-align: center;
+    padding-bottom: 10%;
+    color: var(--naranja);
+    font-size: 60px;
+}
+
+.contenedor-texto h4 {
+
+    color: #ed830a;
+}
+
+.contenedor-texto .subheading {
+
+    /* color: #9a6f3e */
+    color: #f6c28b
+}
+
+.contenedor-texto .text-muted {
+
+    color: var(--blanco) !important;
+}
+
+.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/************* GEO ***************************/
+
+.geo {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(imgs/background.jpg);
+    min-width: 100%;
+    padding: 5%;
+}
+
+#localizacion h2 {
+
+    padding-bottom: 3%;
+    text-align: center;
+    color: var(--blanco);
+    font-size: 60px;
+    color: var(--blanco);
+}
+
+#localizacion p {
+
+
+    color: var(--blanco);
+    padding-bottom: 3%;
+}
+
+#loc-p {
+
+    background-color: #0f0f0f;
+    margin-bottom: 2%;
+    padding: 10%;
+    border-radius: 25px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header-localizacion {
 
     display: flex;
     justify-content: center;
 }
 
-#header-localizacion img{
+#header-localizacion img {
 
     max-height: 5%;
     max-width: 10%;
@@ -218,110 +221,110 @@ body{
     margin-bottom: 3%;
 }
 
-#header-localizacion h2{
+#header-localizacion h2 {
 
 
     color: var(--naranja);
 }
 
-.prueba h4{
 
-    color: #ed830a;
-}
-
-.prueba .subheading{
-
-    /* color: #9a6f3e */
-    color:#f6c28b
-}
-
-.prueba .text-muted{
-
-    color: var(--blanco) !important; 
-}
-
-#satellite-map{
+#satellite-map {
 
     padding-top: 5%;
 }
 
-#street-map-phone,#satellite-map-phone{
+#street-map-phone,#satellite-map-phone {
 
-    display:none;
-}
-
-#tlf{
-
-    padding-right: 100px;
-}
-
-
-.reveal{
-    position: relative;
-    transform: translateY(150px);
-    opacity: 0;
-    transition: 1s all ease;
-  }
-  
-  .reveal.active{
-    transform: translateY(0);
-    opacity: 1;
-  }
-
-@keyframes fadeIn{
-    to {
-        scale: 1;
-        opacity: 1;
-    }
+    display: none;
 }
 
 
 
-@media (max-width:990px){
+/************* FORM ***************************/
 
-    #header{
+#form {
+
+    background-color: #0f0f0f;
+    padding: 5%;
+}
+
+#form h1,label {
+
+    color: #fefefa;
+    background-color: var(--negro);
+}
+
+#form h1 {
+
+    color: var(--naranja);
+    padding-bottom: 10%;
+}
+
+/************* FOOTER ***************************/
+
+/************* MEDIA QUERIES ***************************/
+
+
+
+@media (max-width:990px) {
+
+    #header {
 
         display: none;
     }
 
-    #street-map,#satellite-map{
+    #street-map,
+    #satellite-map {
 
-        display:none;
+        display: none;
     }
 
-    #street-map-phone,#satellite-map-phone{
+    #street-map-phone,
+    #satellite-map-phone {
 
-        display:grid;
+        display: grid;
     }
 
-    #satellite-map-phone{
+    #satellite-map-phone {
 
         padding-top: 10%;
     }
 
-    #header-localizacion img{
+    #header-localizacion img {
 
         margin-right: 25%;
         margin-left: 25%;
     }
 
-    #header-localizacion{
+    #header-localizacion {
 
         display: flex;
         flex-direction: column;
         align-items: center;
-        
+
     }
 
-    #conocenos{
+    #conocenos {
 
         display: flex;
         align-items: center;
         flex-direction: column;
     }
 
-    .prueba{
+    .contenedor-texto {
         order: 1;
     }
+
+    #tlf {
+
+        display: none;
+    }
+
+    .nav-item {
+
+        padding: 10px;
+    }
+
+
 
 }
