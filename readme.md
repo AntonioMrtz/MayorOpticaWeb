@@ -8,6 +8,9 @@
 - Poner WEB en google maps
 - Avisar de que diga siempre que pongan una valoracion
 - Enlace a valoracion de la optica¿¿¿¿
+- Reorganizacion CSS por sectores
+- Poner links adrian diseño tanto git como pagina
+- Poner numero de telefono en algun lado visible
 
 # IMPORTANTE
 

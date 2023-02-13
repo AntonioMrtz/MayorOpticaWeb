@@ -10,6 +10,24 @@ html {
 
 }
 
+/* GLOBAL */
+
+/* HEADER */
+
+/* NAVBAR */
+
+/* CAROUSEL */
+
+/* CONÓCENOS */
+
+/* GEO */
+
+/* FORM */
+
+/* FOOTER */
+
+/* MEDIA QUERIES */
+
 #header{
 
     min-width: 100%;
@@ -70,7 +88,6 @@ body{
 #carousel{
 
    padding: 5%;
-   /* background-image: url(imgs/background-new.jpg); */
    background-image: url(imgs/fondo-naranja-textura.png);
    min-width: 100%;
    
@@ -214,7 +231,8 @@ body{
 
 .prueba .subheading{
 
-    color: #9a6f3e
+    /* color: #9a6f3e */
+    color:#f6c28b
 }
 
 .prueba .text-muted{
@@ -231,6 +249,32 @@ body{
 
     display:none;
 }
+
+#tlf{
+
+    padding-right: 100px;
+}
+
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+  
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+@keyframes fadeIn{
+    to {
+        scale: 1;
+        opacity: 1;
+    }
+}
+
 
 
 @media (max-width:990px){
