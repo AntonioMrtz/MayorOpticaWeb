@@ -14,7 +14,7 @@
 
 body {
 
-    background-image: url(imgs/background-new.jpg);
+    /* background-image: url(backgrounds/background-new.jpg); */
     background-repeat: no-repeat;
 
 }
@@ -168,14 +168,14 @@ body {
 #carousel {
 
     padding: 5%;
-    background-image: url(imgs/fondo-naranja-textura.png);
+    background-image: url(backgrounds/fondo-naranja-textura.png);
     min-width: 100%;
 }
 
 #carousel2 {
 
-    max-width: 75%;
-    max-height: 90%;
+    max-width: 70%;
+    max-height: 100%;
 }
 
 .carousel-item img {
@@ -265,7 +265,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(imgs/background.jpg);
+    background-image: url(backgrounds/background.jpg);
     min-width: 100%;
     padding: 5%;
 }
@@ -402,9 +402,6 @@ body {
         flex-direction: column;
     }
 
-    .contenedor-texto {
-        order: 1;
-    }
 
     #tlf {
 
@@ -434,4 +431,19 @@ body {
     }
 
 
+}
+
+@media (max-width:770px) {  
+    
+    .contenedor-texto {
+        order: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contenedor-texto .header-contenedor-texto{
+
+        padding-top: 5%;
+    }
 }
