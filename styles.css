@@ -79,7 +79,27 @@ body {
 
 
     display: none ;
+    /* background-image: url(imgs/mayor_optica_frente_naranja.png); */
+    position: relative;
+    
 }
+
+.overlay{
+
+    position: absolute; 
+    background: rgba(57, 57, 57, 0.5);
+  
+    /* center overlay text */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay_2{
+
+    inset: 0;
+}
+
 
 #carousel {
 
@@ -342,6 +362,7 @@ body {
         display: block;
         min-width:  100%;
         object-fit: cover;
+
     }
 
 
