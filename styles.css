@@ -6,7 +6,9 @@
     --naranja: #e9820d;
     --blanco: #fefefa;
     scroll-behavior: smooth;
-    
+    -webkit-font-smoothing: antialiased;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
     
 }
 
