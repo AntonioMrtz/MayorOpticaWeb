@@ -1,4 +1,4 @@
-/************* GLOBSAL ***************************/
+/************* GLOBAL ***************************/
 
 :root{
     
@@ -82,6 +82,7 @@ body {
     /* background-image: url(imgs/mayor_optica_frente_naranja.png); */
     position: relative;
     
+    
 }
 
 .overlay{
@@ -98,6 +99,67 @@ body {
 .overlay_2{
 
     inset: 0;
+}
+
+#overlay-items{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+#overlay-items h1{
+
+   /*  color: var(--blanco); */
+   color: white;
+   text-shadow: 0px 0px 3px var(--negro), 0px 0px 3px var(--negro), 0px 0px 3px var(--naranja),
+    0px 0px 20px #b393d3;
+   text-align: center;
+}
+
+#overlay-buttons{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#overlay-buttons a{
+
+    margin-right: 1%;
+    margin-top: 2%;
+    border-radius: 25px;
+}
+
+#start-button{
+
+    background-color:var(--naranja);
+    border-color:var(--naranja);
+    
+    text-decoration: none;
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+  text-shadow: 0px 0px 5px #b393d3, 0px 0px 10px #b393d3, 0px 0px 10px #b393d3,
+    0px 0px 20px #b393d3;
+   
+}
+
+#start-button:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+  }
+
+#contact-button{
+
+    opacity: 0.9;
+}
+
+
+.banner-mobile img{
+
+    opacity: 0.7;
 }
 
 
@@ -363,6 +425,10 @@ body {
         min-width:  100%;
         object-fit: cover;
 
+    }
+    .navbar-brand{
+
+        margin-left: 1%;
     }
 
 
