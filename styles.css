@@ -41,18 +41,20 @@ body {
 
 /************* NAVBAR ***************************/
 
-.navbar-brand {
 
+
+.navbar-brand {
+    
     max-width: 50%;
     margin-right: 10px;
-
+    
 }
 
 .img_nav {
-
+    
     width: 60px;
     height: 60px;
-
+    
 }
 
 .navbar .container-fluid {
@@ -61,24 +63,29 @@ body {
 }
 
 .nav-link {
-
+    
     padding-top: 0px;
     padding-bottom: 0px;
 }
 
 #tlf {
-
+    
     padding-right: 100px;
 }
 
 /************* CAROUSEL ***************************/
+
+.banner-mobile{
+
+
+    display: none ;
+}
 
 #carousel {
 
     padding: 5%;
     background-image: url(imgs/fondo-naranja-textura.png);
     min-width: 100%;
-
 }
 
 #carousel2 {
@@ -325,6 +332,17 @@ body {
         padding: 10px;
     }
 
+    #carousel{
+
+        display: none;
+    }
+
+    .banner-mobile{
+
+        display: block;
+        min-width:  100%;
+        object-fit: cover;
+    }
 
 
 }
