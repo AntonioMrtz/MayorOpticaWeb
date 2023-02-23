@@ -121,6 +121,15 @@ a{
     flex-direction: column;
     align-items: center;
     justify-items: center;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.19);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
+    border: 1px solid rgba(255, 255, 255, 0.42);
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 #overlay-items h1{
@@ -505,7 +514,7 @@ a{
         display: block;
         min-width:  100%;
         object-fit: cover;
-
+        background: rgba(255, 255, 255, 0.19);
     }
     .navbar-brand{
 
