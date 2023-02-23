@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+
 /************* GLOBAL ***************************/
 
 :root{
@@ -9,8 +12,11 @@
     -webkit-font-smoothing: antialiased;
     font-synthesis: none;
     text-rendering: optimizeLegibility;
+    font-family: 'Roboto', sans-serif !important;    
     
 }
+
+
 
 body {
 
@@ -169,7 +175,7 @@ body {
 #carousel {
 
     padding: 5%;
-    background-image: url(backgrounds/fondo-naranja-textura.png);
+    background-image: url(assets/imgs/backgrounds/orange_waves.png);
     min-width: 100%;
 }
 
@@ -273,7 +279,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(backgrounds/background.jpg);
+    background-image: url(assets/imgs/backgrounds/orange_faded.jpg);
     min-width: 100%;
     padding: 5%;
 }
@@ -353,11 +359,19 @@ body {
     background-color: var(--negro);
 }
 
-#form h1 {
+#form h2 {
+
+    color: var(--naranja);
+    padding-bottom: 10%;
+    font-size: 60px;
+}
+
+#form h3 {
 
     color: var(--naranja);
     padding-bottom: 10%;
 }
+
 
 /************* FOOTER ***************************/
 
