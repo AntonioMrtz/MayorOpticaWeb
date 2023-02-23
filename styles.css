@@ -14,8 +14,8 @@
     text-rendering: optimizeLegibility;
     font-family: 'Roboto', sans-serif !important;    
     
+    
 }
-
 
 
 body {
@@ -24,6 +24,11 @@ body {
     background-repeat: no-repeat;
     text-align: justify;
 
+}
+
+a{
+
+    text-decoration: none;
 }
 
 /************* HEADER ***************************/
@@ -226,6 +231,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 
 }
 
@@ -364,12 +370,13 @@ body {
     color: var(--naranja);
     padding-bottom: 10%;
     font-size: 60px;
+    text-align: center;
 }
 
 #form h3 {
 
     color: var(--naranja);
-    padding-bottom: 10%;
+    padding-bottom: 5%;
 }
 
 #contact-container{
@@ -387,6 +394,28 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    margin: 2%;
+    background-color: gray;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.contact-wrapper:hover{
+
+    background-color: rgb(129, 122, 122);
+    border: 1px solid rgba(181, 169, 169, 0.3);
+
+
+}
+
+.contact-wrapper h4{
+
+    color: var(--blanco);
 }
 
 .contact-item{
@@ -475,6 +504,23 @@ body {
 
         margin-left: 1%;
     }
+
+    #contact-container{
+
+        flex-direction: column;
+    }
+
+    .contact-wrapper{
+
+        margin-bottom: 10%;
+    }
+
+    .contact-wrapper h4{
+
+        margin-top: 3%;
+    }
+
+
 }
 @media (min-width:771px) {
 
