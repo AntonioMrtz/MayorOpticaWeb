@@ -179,8 +179,9 @@ a{
 
 #carousel {
 
-    padding: 5%;
-    background-image: url(assets/imgs/backgrounds/orange_waves.png);
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-image: url(assets/imgs/backgrounds/orange_waves_duller.png);
     min-width: 100%;
 }
 
@@ -207,6 +208,12 @@ a{
     top: 0;
     width: 75vw;
     height: 75vh;
+}
+
+.carousel-inner{
+    border-radius: 12px;
+
+
 }
 
 /************* CONÓCENOS ***************************/
