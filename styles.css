@@ -16,6 +16,7 @@ body {
 
     /* background-image: url(backgrounds/background-new.jpg); */
     background-repeat: no-repeat;
+    text-align: justify;
 
 }
 
@@ -228,6 +229,13 @@ body {
     padding-bottom: 10%;
     color: var(--naranja);
     font-size: 60px;
+}
+
+
+.contenedor-texto{
+
+    margin-top: 2%;
+    text-align: justify;
 }
 
 .contenedor-texto h4 {
