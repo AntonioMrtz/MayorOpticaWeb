@@ -31,6 +31,12 @@ a{
     text-decoration: none;
 }
 
+hr{
+
+    color: aliceblue;
+    padding-bottom: 3%;
+}
+
 /************* HEADER ***************************/
 
 #header {
