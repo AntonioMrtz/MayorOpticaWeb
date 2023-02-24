@@ -133,6 +133,8 @@ a{
     border: 1px solid rgba(255, 255, 255, 0.42);
     padding-top: 5%;
     padding-bottom: 5%;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 #overlay-items h1{
@@ -297,6 +299,7 @@ a{
     opacity: 1;
 }
 
+
 /************* GEO ***************************/
 
 .geo {
@@ -415,6 +418,11 @@ a{
 #accordion span{
 
     color: #fefefa;
+}
+
+#street-view{
+
+    display: none;
 }
 
 
@@ -547,6 +555,13 @@ a{
         display: flex;
         align-items: center;
         flex-direction: column;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    #conocenos h2{
+
+        padding-bottom: 50%;
     }
 
 
@@ -578,6 +593,11 @@ a{
         margin-left: 1%;
     }
 
+    #contact{
+
+        padding-bottom: 50px;
+    }
+
     #contact-container{
 
         flex-direction: column;
@@ -591,6 +611,26 @@ a{
     .contact-wrapper h4{
 
         margin-top: 3%;
+    }
+
+    #horario{
+        width: 110%;
+        margin-bottom: 25%;
+    }
+
+    #accordion{
+
+        display: none;
+    }
+
+    #street-view{
+
+        display: block;
+    }
+
+    #localizacion p{
+
+        font-size: 20px;
     }
     
 
