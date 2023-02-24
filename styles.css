@@ -7,6 +7,7 @@
     
     --negro: #0f0f0f;
     --naranja: #e9820d;
+    --naranja-claro: #f5b770;
     --blanco: #fefefa;
     scroll-behavior: smooth;
     -webkit-font-smoothing: antialiased;
@@ -322,6 +323,7 @@ a{
 
     color: var(--blanco);
     padding-bottom: 3%;
+    font-size: 25px
 }
 
 #loc-p {
@@ -367,6 +369,53 @@ a{
     display: none;
 }
 
+#horario{
+
+    margin-bottom: 10%;
+    width: 75%;
+}
+
+#localizacion h3{
+
+    color: var(--naranja);
+    padding-bottom: 5%;
+    padding-top: 5%;
+
+}
+
+#localizacion hr{
+
+    width: 100%;
+    color: aliceblue;
+
+}
+
+#localizacion a{
+
+    color: var(--naranja-claro) !important;
+    text-decoration: none;
+
+}
+#accordion .card-header{
+
+    background-color: #161819 !important;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+#accordion .card-body{
+
+    background-color: #212529 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#accordion span{
+
+    color: #fefefa;
+}
 
 
 /************* FORM ***************************/
@@ -543,6 +592,7 @@ a{
 
         margin-top: 3%;
     }
+    
 
 
 }
