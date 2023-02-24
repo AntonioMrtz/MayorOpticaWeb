@@ -1,8 +1,8 @@
 # TO-DO
 
-- Horario apertura?
 
-- Hacer clasica foto - comentario de la tienda como parte principal
+- Hacer clasica foto del optico en mostrador o algo con personas
+- Siempre a la ultima foto modelo
 - Aceptar formulario correo mayoroptica
 - Avisar de que diga siempre que pongan una valoracion
 - Enlace a valoracion de la optica¿¿¿¿
@@ -10,6 +10,7 @@
 
 # IMPORTANTE
 
+- Nueva seccion servicios?
 
 # IDEAS
 
