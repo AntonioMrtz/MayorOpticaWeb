@@ -678,6 +678,23 @@ h2{
         margin-bottom: 10%;
 
     }
+
+    h2{
+
+        font-size: calc(4rem + .3vw);
+    }
+
+    .contenedor-texto .principal {
+    
+        font-size: calc(2rem + .3vw);
+     
+     }
+
+     .contenedor-texto .text-muted {
+
+        color: var(--blanco) !important;
+        font-size: 1.1rem;
+    }
     
 
 
