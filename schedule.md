@@ -7,6 +7,7 @@
 - Avisar de que diga siempre que pongan una valoracion
 - Enlace a valoracion de la optica¿¿¿¿
 - Poner alts imagenes
+- Foto mitad cara gafas modelo
 
 # IMPORTANTE
 
