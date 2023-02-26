@@ -483,6 +483,12 @@ h2{
     padding-bottom: 5%;
 }
 
+#form button{
+
+    background-color: var(--naranja);
+    border-color: var(--naranja) ;
+}
+
 #contact-container{
 
     display: flex;
