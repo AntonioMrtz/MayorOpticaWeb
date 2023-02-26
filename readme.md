@@ -1,4 +1,4 @@
-<img src="imgs/MayorOptica_fondoNULL.png"
+<img src="https://raw.githubusercontent.com/AntonioMrtz/MayorOpticaWeb/master/assets/imgs/icons/MayorOptica_fondoNULL.png"
      style="float: left; margin-right: 10px;" />
 
 
@@ -11,5 +11,5 @@
   </tr>
 </table>
 
-prueba
+
  
