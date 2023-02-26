@@ -23,8 +23,6 @@ const sticky = document.getElementById("sticky-button-container");
 const sticky_1 = document.getElementById("sticky-button");
 const observer = new IntersectionObserver((entries) => {
 
-    console.log(entries[0].isIntersecting)
-
     if(entries[0].isIntersecting){
          
       sticky.classList.remove("scroll")
