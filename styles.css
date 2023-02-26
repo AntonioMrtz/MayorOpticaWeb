@@ -33,7 +33,11 @@ a{
 
     text-decoration: none;
 }
+h2{
 
+    font-weight: 700 !important;
+
+}
 
 
 /************* HEADER ***************************/
@@ -287,6 +291,8 @@ a{
 .contenedor-texto .principal {
     
    font-size: calc(2.5rem + .3vw);
+   font-weight: 600 !important;
+
 
 }
 .contenedor-texto .subheading {
@@ -294,7 +300,9 @@ a{
      /* color:rgb(167, 167, 222) */
      /* color:rgb(166, 166, 127) */
     /* color: #f6c28b */
-    color: rgb(208, 162, 152)
+    color: rgb(208, 162, 152);
+    font-weight: 550 !important;
+
 }
 
 .contenedor-texto .text-muted {
