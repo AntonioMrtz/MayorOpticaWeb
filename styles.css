@@ -39,6 +39,50 @@ h2{
 
 }
 
+#sticky-button-container .material-symbols-outlined {
+    font-variation-settings:
+    'FILL'100,
+    'wght' 100,
+    'GRAD' 100,
+    'opsz' 100;
+
+    color: var(--blanco);
+    background-color: var(--naranja);
+    font-size: 3rem;
+    height: auto;
+
+
+    border-radius: 50%;
+    border-color: var(--blanco);
+    border-width: 2px;
+    /* display: none; */
+    visibility: hidden;
+
+
+
+    
+}
+
+#sticky-button-container{
+
+    opacity: 0.7;
+
+
+    position: fixed;
+    right: 5rem;
+    bottom: 5rem;
+    border:none;
+    height: 25px;
+    width: 25px;
+    
+}
+
+.scroll{
+    visibility: visible !important;
+    z-index: 1000;
+    opacity: 0.7;
+}
+
 
 /************* HEADER ***************************/
 
@@ -297,10 +341,8 @@ h2{
 }
 .contenedor-texto .subheading {
 
-     /* color:rgb(167, 167, 222) */
-     /* color:rgb(166, 166, 127) */
-    /* color: #f6c28b */
-    color: rgb(208, 162, 152);
+     
+    color: var(--blanco);
     font-weight: 550 !important;
 
 }
@@ -714,6 +756,16 @@ h2{
     
         padding-left: 10px !important;
         padding-right: 10px !important;
+    }
+
+    #sticky-button-container{
+
+    
+        right: 3rem;
+        bottom: 3rem;
+       
+        
+        
     }
     
 
