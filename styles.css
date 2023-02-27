@@ -139,9 +139,51 @@ h2{
     padding-right: 15px !important;
 }
 
-#tlf {
-    
-    padding-right: 100px;
+
+.contenedor-imagen img{
+
+	width: 55vh !important;
+
+}
+
+.navbar{
+
+    margin-bottom: 0;
+}
+
+
+
+
+#contenedor-nav-entera{
+
+	display: flex;
+	flex-direction: column-reverse;
+	background-color: #0f0f0f;
+
+	
+}
+
+.contenedor-imagen{
+
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: stretch;
+	margin-right: 5%;
+	margin-top: 2%;
+    margin-bottom: -3%;
+
+}
+
+#contenedor-nav{
+
+	display: flex;
+	flex-direction: row;
+	margin: 0px;
+}
+
+#contenedor-nav a{
+
+	font-size: 1.25rem;
 }
 
 /************* CAROUSEL ***************************/
@@ -593,6 +635,7 @@ h2{
 }
 
 
+
 /************* FOOTER ***************************/
 
 /************* MEDIA QUERIES ***************************/
@@ -774,6 +817,18 @@ h2{
 
         padding-bottom: 4%;
     }
+
+    .contenedor-imagen{
+
+        display: none !important;
+    }
+    #contenedor-nav{
+
+        display: block !important; 
+    
+    /* margin: 0px; */
+    /* margin-bottom: 1%;*/
+    }
     
 
 
@@ -819,6 +874,16 @@ h2{
     }
 }
 
+@media (max-width:1198px) {  /* Cuando el logo pasa por encima del navbar*/
+    
+    .contenedor-imagen img{
+
+        width: 35vh !important;
+    
+    }
+
+}
+
 @media (max-width:374px) {
 
 
@@ -827,3 +892,6 @@ h2{
         margin-right: 10px !important;
     }
 }
+
+
+
