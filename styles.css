@@ -894,4 +894,57 @@ h2{
 }
 
 
+.header-container{
 
+    display: flex;
+    flex-direction: row;
+    background-image: url(assets/imgs/backgrounds/orange_waves.png);
+    /* width: 100vw; */
+
+}
+
+.header-container img{
+
+    width: 40%;
+    margin: 3%;
+    border-radius: 20px;
+
+}
+
+#contenedor-texto-inicio{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 10%;
+ 
+}
+
+#contenedor-texto-heading{
+
+    margin: 37px;
+    border-radius: 43px;
+background: #e9820d;
+box-shadow:  -11px 11px 22px #a35b09,
+             11px -11px 22px #ffa911;
+    
+}
+
+.header-container h1,h2,h3,h4,p{
+
+    color: var(--blanco) ;
+ 
+}
+
+.header-container h1{
+
+    padding-top: 6%;
+ 
+}
+
+#contenedor-texto-heading img{
+
+    width: 30%;
+    margin-top: 0px;
+
+}
