@@ -283,7 +283,7 @@ h2{
 
 .banner-mobile img{
 
-    opacity: 0.7;
+    opacity: 1;
 }
 
 
@@ -924,9 +924,8 @@ h2{
 
     margin: 37px;
     border-radius: 43px;
-background: #e9820d;
-box-shadow:  -11px 11px 22px #a35b09,
-             11px -11px 22px #ffa911;
+    background: #e9820d;
+    box-shadow: -11px 11px 22px #a35b09,11px -11px 22px #ffa911;
     
 }
 
