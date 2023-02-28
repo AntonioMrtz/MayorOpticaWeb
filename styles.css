@@ -961,9 +961,12 @@ h2{
     background-color: grey;
   }
 
-.divisor{
 
-    border-top: 5px solid var(--naranja);
 
+.navbar-brand{
+
+    text-align: center;
+    justify-content: center;
+    padding-top: 2%;
 }
   
