@@ -12,6 +12,7 @@
 # IMPORTANTE
 
 - Nueva seccion servicios?
+- HACER MAS HUECO AL MAPA en localizacion
 
 # IDEAS
 

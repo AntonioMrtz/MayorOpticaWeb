@@ -235,8 +235,8 @@ h2{
     padding-left: 0;
     padding-right: 0;
 
-    backdrop-filter: blur(1.75px);
-    -webkit-backdrop-filter: blur(1.75px); 
+    backdrop-filter: blur(0.75px);
+    -webkit-backdrop-filter: blur(0.75px); 
 
     z-index: 2;
 }
