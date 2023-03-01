@@ -83,7 +83,25 @@ h2{
     opacity: 0.7;
 }
 
+.hover {
+    --s: 0.1em;
+    /* the thickness of the line */
+    --c: var(--naranja);
+    /* the color */
 
+    color: #0000;
+    /* padding-bottom: var(--s); */
+    background:
+        linear-gradient(90deg, var(--c) 50%, #000 0) calc(100% - var(--_p, 0%))/200% 100%,
+        linear-gradient(var(--c) 0 0) 0% 100%/var(--_p, 0%) var(--s) no-repeat;
+    -webkit-background-clip: text, padding-box;
+    background-clip: text, padding-box;
+    transition: 0.5s;
+}
+
+.hover:hover {
+    --_p: 100%
+}
 /************* HEADER ***************************/
 
 #header {
@@ -897,32 +915,6 @@ h2{
 
 
 }
-@media (min-width:771px) {
-
-
-    .hover {
-        --s: 0.1em;   /* the thickness of the line */
-        --c: var(--naranja); /* the color */
-        
-        color: #0000;
-        /* padding-bottom: var(--s); */
-        background: 
-          linear-gradient(90deg,var(--c) 50%,#000 0) calc(100% - var(--_p,0%))/200% 100%,
-          linear-gradient(var(--c) 0 0) 0% 100%/var(--_p,0%) var(--s) no-repeat;
-        -webkit-background-clip: text,padding-box;
-                background-clip: text,padding-box;
-        transition: 0.5s;
-      }
-      .hover:hover {
-        --_p: 100%
-      }
-
-
-
-
-
-}
-
 @media (max-width:770px) {  
     
     .contenedor-texto {
@@ -971,4 +963,5 @@ h2{
     justify-content: center;
     padding-top: 2%;
 }
-  
+
+
