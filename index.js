@@ -46,8 +46,3 @@ $(window).on('resize', function () {
 
 
 
-$("nav-item-conocenos").click(function() {
-  window.location = $(this).find("a").attr("href"); 
-  return false;
-});
-
