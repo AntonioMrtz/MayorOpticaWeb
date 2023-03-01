@@ -14,6 +14,9 @@
 - Nueva seccion servicios?
 - HACER MAS HUECO AL MAPA en localizacion
 
+
+- MAKE js de cada li entero o hacer li clikable
+
 # IDEAS
 
 - QR en óptica dentro para que te lleve a valoracion ( https://www.google.com/search?hl=es-ES&gl=es&q=Mayor+%C3%93ptica,+C.+Mayor,+142,+30006+Murcia&ludocid=11124166478862017479&lsig=AB86z5W7ADY8mPBlolHSID8hPjHk#lrd=0xd6382e3b9f013eb:0x9a60fa7962e0e3c7,3 )

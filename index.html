@@ -41,7 +41,7 @@
                         </a>
                     </div>
                 </nav>
-                <div class="container-fluid">
+                <div class="container-fluid" id="#contenedor-navbar">
                     <a class="navbar-brand" href="#home" style="color:var(--naranja);">Mayor Óptica</a>                    
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -51,34 +51,37 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
-                            <li class="nav-item">
-                                <a class="nav-link hover" href="#conocenos" style="color: #F3ECFF;">Conócenos</a>
-                                
-                                <div class="container-arrow">
-                                    <span class="material-symbols-outlined">
-                                        chevron_right
-                                        </span>
-
-                                </div>
-                                
+                            <li class="nav-item hover">
+                                    <div class="nav-item-items" onclick="document.location='#conocenos'">
+                                        
+                                        <a class="nav-link hover" href="#conocenos" style="color: #F3ECFF;">Conócenos</a>
+                                        
+                                        <div class="container-arrow">
+                                            <img src="assets/imgs/icons/person_icon.png" alt="">
+        
+                                        </div>
+    
+                                    </div>                                
                             </li>
         
-                            <li class="nav-item">
-                                <a class="nav-link hover" href="#localizacion" style="color: #F3ECFF;">Localización</a>
+                            <li class="nav-item hover">
+                                
+                                <div class="nav-item-items onclick="document.location='#localizacion'">
+                                <a class="nav-link" href="#localizacion" style="color: #F3ECFF;">Localización</a>
                                 <div class="container-arrow">
-                                    <span class="material-symbols-outlined">
-                                        chevron_right
-                                        </span>
+                                    <img src="assets/imgs/icons/pin_icon.png" alt="">
 
                                 </div>
+                            </div>
 
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link hover" href="#contact" style="color: #F3ECFF;">Contacto</a>
+                            <li class="nav-item hover">
+                                <div class="nav-item-items" onclick="document.location='#contact'">
+
+                                <a class="nav-link" href="#contact" style="color: #F3ECFF;">Contacto</a>
                                 <div class="container-arrow">
-                                    <span class="material-symbols-outlined">
-                                        chevron_right
-                                        </span>
+                                    <img src="assets/imgs/icons/call_icon.png" alt="">
+                                </div>
 
                                 </div>
 
