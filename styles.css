@@ -173,7 +173,10 @@ h2{
     margin-bottom: 0;
 }
 
+.container-arrow{
 
+    display: none;
+}
 
 
 #home{
@@ -913,6 +916,48 @@ h2{
     }
     
 
+    /* NAVBAR */
+
+    .navbar-brand{
+
+        text-align: center;
+        padding-top: 2%;
+    }
+    
+    
+    .material-symbols-outlined {
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48;
+    
+        color: var(--blanco);    
+      }
+    
+      .container-arrow{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+      }
+    
+      .nav-item{
+    
+        display: flex;
+      }
+    
+      /* En movil solo */
+      .nav-link{
+    
+        width: 50%;
+      }
+    
+      .navbar-collapse{
+    
+        margin-top: 10%;
+      }
+
 
 }
 @media (max-width:770px) {  
@@ -948,20 +993,3 @@ h2{
         margin-right: 10px !important;
     }
 }
-
-
-  #contact-btn{
-
-    background-color: grey;
-  }
-
-
-
-.navbar-brand{
-
-    text-align: center;
-    justify-content: center;
-    padding-top: 2%;
-}
-
-
