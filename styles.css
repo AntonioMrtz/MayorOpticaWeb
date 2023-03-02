@@ -384,10 +384,13 @@ h2 {
     height: 50%;
     margin-top: 4%;
     display: flex;
-    flex-flow: row-reverse;
+    flex-flow: row;
     margin: 0px;
     margin-right: 2.4rem;
     margin-top: -1rem;
+    padding-left:0px ;
+    padding-right:0px ;
+
     
 
    
