@@ -1298,6 +1298,12 @@ h2 {
     }
 
     #servicios-left{
+/*         order: 1;
+ */        margin-left: 0px;
+        padding-top: 0px !important;
+    }
+
+    #servicios-right{
         order: 1;
         margin-left: 0px;
         padding-top: 0px !important;
