@@ -247,8 +247,6 @@ h2 {
     display: flex;
     flex-direction: row;
     background-color: white;
-    /*     width: 90%;
- */
     border-radius: 12px;
     height: auto;
     padding: 3%;
@@ -670,6 +668,77 @@ h2 {
     transform: translateY(0);
     opacity: 1;
 }
+
+
+#servicios{
+
+    display: flex;
+    flex-flow: row;
+    padding: 0px;
+    text-align: start;
+}
+
+.servicios-container{
+
+    display: flex;
+    flex-flow: column;
+    padding-top: 4% !important;
+    margin-right: 2%;
+
+}
+
+
+#servicios-right{
+
+    display: flex;
+    flex-flow: column;
+    padding: 0px;
+
+}
+
+#servicios-left{
+
+    display: flex;
+    flex-flow: column;
+    padding: 0px;
+    padding-right: 4%;
+    margin-left:1rem;
+
+}
+
+
+
+#servicios img{
+
+    margin: 0px;
+    width: 25%;
+}
+
+#servicios h5{
+
+    color: var(--blanco);
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+.servicios-item{
+
+    display: flex;
+    padding: 0px;
+    margin-top: 4%;
+    flex-flow: row;
+
+
+}
+
+.img-thumbnail{
+
+    padding: 0px !important;
+    margin: 0px !important;
+    margin-right: 7% !important;
+
+}
+
 
 
 /************* GEO ***************************/
@@ -1217,6 +1286,24 @@ h2 {
         display: none;
     }
 
+    #servicios{
+
+        flex-direction: column;
+        padding-left: 10%;
+    }
+
+    #servicios img{
+
+        width: 15%;
+    }
+
+    #servicios-left{
+        order: 1;
+        margin-left: 0px;
+    }
+
+
+
 
 }
 
@@ -1254,3 +1341,8 @@ h2 {
         margin-right: 10px !important;
     }
 }
+
+
+
+
+
