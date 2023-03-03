@@ -155,11 +155,16 @@ h2 {
 
 .nav-link {
 
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-left: 20px !important;
-    padding-right: 20px !important;
+    padding: 0px !important;
+    /* padding-left: 20px !important;
+    padding-right: 20px !important; */
     font-weight: 600;
+}
+
+.nav-item{
+
+    margin-left: 4%;
+    margin-right: 4%;
 }
 
 
@@ -980,6 +985,7 @@ h2 {
 
         padding: 0px;
         padding-bottom: 10px;
+
     }
 
     .navbar-brand {
@@ -990,10 +996,12 @@ h2 {
 
     .nav-link {
 
-        padding-left: 1%;
-        padding-top: 2%;
-        padding-bottom: 2%;
-        font-weight: 600;
+        padding-left: 1% !important;
+        padding-top: 2% !important;
+        padding-bottom: 2% !important;
+        font-weight: 600 !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
     }
 
     .banner-mobile {
