@@ -739,6 +739,11 @@ h2 {
 
 }
 
+.img-small{
+
+    width: 75%;
+}
+
 
 
 /************* GEO ***************************/
@@ -981,6 +986,7 @@ h2 {
     font-size: calc(5rem + .3vw);
     background: linear-gradient(to right, var(--naranja) 0%, #e9ac26 100%);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
