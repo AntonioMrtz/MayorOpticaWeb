@@ -1,7 +1,10 @@
 <img src="https://raw.githubusercontent.com/AntonioMrtz/MayorOpticaWeb/master/assets/imgs/icons/MayorOptica_fondoNULL.png"
      style="float: left; margin-right: 10px;" />
 
+### Social Links
 
+[Google Maps](https://goo.gl/maps/RSQb5gg4NfQNF8u19)
+[Facebook](https://www.facebook.com/people/Mayor-%C3%93ptica-Puente-Tocinos/100054706842854/)
 ### Contributors
 
 <table>
