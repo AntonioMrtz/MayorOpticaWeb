@@ -756,7 +756,7 @@ h2 {
 
 }
 
-#localizacion h2 {
+#localizacion > h2 {
 
     padding-bottom: 3%;
     text-align: center;
@@ -838,7 +838,7 @@ h2 {
     background-color: #220f01 !important;
 }
 
-#localizacion h3 {
+#localizacion > div > h3 {
 
     color: var(--naranja);
     padding-bottom: 5%;
@@ -872,7 +872,17 @@ h2 {
     padding: 0 !important;
 }
 
-#accordion .card-header {
+.accordion-button:after {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+
+.accordion h3{
+    
+    border: 1px solid var(--marron) !important;
+
+}
+
+#accordion .accordion-button {
 
     background-color: var(--marron) !important;
     display: flex;
@@ -880,7 +890,7 @@ h2 {
     align-items: center;
 }
 
-#accordion .card-body {
+#accordion .accordion-body {
 
     background-color: var(--marron-background-oscuro) !important;
     display: flex;
@@ -888,9 +898,16 @@ h2 {
     justify-content: center;
 }
 
-#accordion a {
+#accordion button {
 
     color: var(--blanco) !important;
+    font-size: 1.23rem;
+
+}
+
+#accordion button:hover {
+
+    font-weight: 600;
 
 }
 
@@ -899,11 +916,11 @@ h2 {
     color: #fefefa;
 }
 
-#accordion .card:hover {
-
-    transform: scale(1.01);
-    color: white;
+.accordion-button:focus {
+    box-shadow: none;
+    border-color: rgba(0,0,0,.125);
 }
+
 
 .map-responsive {
     overflow: hidden;
