@@ -996,6 +996,11 @@ h2 {
 
 /************* FOOTER ***************************/
 
+footer a:hover p{
+
+    color: var(--naranja-claro);
+}
+
 /************* MEDIA QUERIES ***************************/
 
 
