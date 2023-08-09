@@ -846,8 +846,9 @@ h2 {
 
 #localizacion a {
 
-    color: var(--naranja-claro) !important;
+    color: var(--blanco) !important;
     text-decoration: none;
+    font-weight: 600;
 
 }
 
@@ -858,7 +859,7 @@ h2 {
 
 #accordion .card-header {
 
-    background-color: #161819 !important;
+    background-color: var(--marron) !important;
     display: flex;
     justify-items: center;
     align-items: center;
@@ -866,7 +867,7 @@ h2 {
 
 #accordion .card-body {
 
-    background-color: #212529 !important;
+    background-color: var(--marron-background-oscuro) !important;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -876,6 +877,7 @@ h2 {
 
     color: #fefefa;
 }
+
 
 #street-view {
 
