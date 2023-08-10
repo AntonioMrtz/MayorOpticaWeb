@@ -738,6 +738,39 @@ h2 {
 }
 
 
+/************* VALORANOS ***************************/
+
+#valoranos{
+
+    cursor: pointer;
+}
+
+#animated-image-stars{
+
+    transition: transform 0.5s ease-in-out;
+    animation: imageScale 4s infinite;
+}
+
+@keyframes imageScale {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+#animated-image-stars.animate {
+    animation: imageScale 4s infinite;
+}
+
+#valoranos:hover{
+    background-color: var(--marron-boton) !important;
+    border: 2px solid var(--naranja) !important;
+}
+
+
+
 
 /************* GEO ***************************/
 
@@ -1108,6 +1141,21 @@ footer a:hover p {
         padding-bottom: 50%;
     }
 
+    #valoranos{
+
+        flex-direction: column !important;
+    }
+
+    #animated-image-stars{
+
+        max-width: 70% !important;
+    }
+
+    #valoranos h3{
+
+        text-align: center !important;
+    }
+
 
     #tlf {
 
@@ -1431,6 +1479,3 @@ footer a:hover p {
         margin-right: 10px !important;
     }
 }
-
-
-
