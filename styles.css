@@ -70,7 +70,7 @@ h2 {
 
 }
 
-#sticky-button-container i{
+#sticky-button-container i {
 
     padding: 25%;
 }
@@ -741,23 +741,26 @@ h2 {
 
 /************* VALORANOS ***************************/
 
-#valoranos{
+#valoranos {
 
     cursor: pointer;
     border-top: 1px solid var(--naranja);
     border-bottom: 1px solid var(--naranja);
 }
 
-#animated-image-stars{
+#animated-image-stars {
 
     transition: transform 0.5s ease-in-out;
     animation: imageScale 4s infinite;
 }
 
 @keyframes imageScale {
-    0%, 100% {
+
+    0%,
+    100% {
         transform: scale(1);
     }
+
     50% {
         transform: scale(1.1);
     }
@@ -767,7 +770,7 @@ h2 {
     animation: imageScale 4s infinite;
 }
 
-#valoranos:hover{
+#valoranos:hover {
     background-color: var(--marron-boton) !important;
     border-top: 2px solid var(--naranja);
     border-bottom: 2px solid var(--naranja);
@@ -791,7 +794,7 @@ h2 {
 
 }
 
-#localizacion > h2 {
+#localizacion>h2 {
 
     padding-bottom: 3%;
     text-align: center;
@@ -856,7 +859,7 @@ h2 {
 /* table */
 
 #horario {
-    
+
     margin-bottom: 10%;
     border: 2px solid var(--marron);
     font-size: 1.15rem;
@@ -873,7 +876,7 @@ h2 {
     background-color: #220f01 !important;
 }
 
-#localizacion > div > h3 {
+#localizacion>div>h3 {
 
     color: var(--naranja);
     padding-bottom: 5%;
@@ -911,8 +914,8 @@ h2 {
     background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
 }
 
-.accordion h3{
-    
+.accordion h3 {
+
     border: 1px solid var(--marron) !important;
 
 }
@@ -953,7 +956,7 @@ h2 {
 
 .accordion-button:focus {
     box-shadow: none;
-    border-color: rgba(0,0,0,.125);
+    border-color: rgba(0, 0, 0, .125);
 }
 
 
@@ -1145,17 +1148,17 @@ footer a:hover p {
         padding-bottom: 50%;
     }
 
-    #valoranos{
+    #valoranos {
 
         flex-direction: column !important;
     }
 
-    #animated-image-stars{
+    #animated-image-stars {
 
         max-width: 70% !important;
     }
 
-    #valoranos h3{
+    #valoranos h3 {
 
         text-align: center !important;
     }
