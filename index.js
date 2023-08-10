@@ -1,3 +1,5 @@
+/* REVEAL ANIMATION */
+
 function reveal() {
     var reveals = document.querySelectorAll(".reveal");
 
@@ -32,7 +34,29 @@ const observer = new IntersectionObserver((entries) => {
 
 observer.observe(el); // Asynchronous call
 
-$(window).on("resize", function () {
-    var conwidth = $(".container").width() / 2 - 30;
-    $(".sticky-button").css("left", "calc(50% + " + conwidth + "px)");
+/* CALCULATE HEIGHT HOME WHOLE SCREEN*/
+
+/* const PHONE_MEDIA_QUERY = window.matchMedia("(max-width: 990px)");
+
+const containerHome = document.getElementById("container-home");
+const containerNavbar = document.getElementById("home");
+
+function setHeightContainerHom() {
+    if (!PHONE_MEDIA_QUERY.matches) {
+        let windowHeight = window.innerHeight;
+        let navbarHeight = window
+            .getComputedStyle(containerNavbar)
+            .getPropertyValue("height")
+            .replace("px", "");
+        containerHome.style.height = windowHeight - navbarHeight + "px";
+
+    }
+}
+
+window.addEventListener("resize", () => {
+    setHeightContainerHom();
 });
+
+window.addEventListener("load", () => {
+    setHeightContainerHom();
+}); */
