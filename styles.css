@@ -24,6 +24,7 @@ body {
     /* background-image: url(backgrounds/background-new.jpg); */
     background-repeat: no-repeat;
     text-align: justify;
+    overflow-x: hidden;
 
 }
 
@@ -743,7 +744,6 @@ h2 {
 #valoranos{
 
     cursor: pointer;
-    width: 100svw;
     border-top: 1px solid var(--naranja);
     border-bottom: 1px solid var(--naranja);
 }
