@@ -24,90 +24,95 @@
 </head>
 
 <body>
-  <div class="container-fluid mw-100" id="home">
-    <div class="container-fluid" id="contenedor-nav">
-      <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: var(--negro);">
-        <nav class="navbar">
-          <div class="container">
-            <a href="#home" class="navbar-brand">
-              <img src="assets/imgs/icons/logo-transformed.webp" alt="Logo Mayor Optica" class="img_nav">
-            </a>
+
+  <div style="height: 100svh;overflow: hidden;display: flex;flex-direction: column;" id="main-page">
+    <div class="container-fluid mw-100" id="home">
+      <div class="container-fluid" id="contenedor-nav">
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: var(--negro);">
+          <nav class="navbar">
+            <div class="container">
+              <a href="#home" class="navbar-brand">
+                <img src="assets/imgs/icons/logo-transformed.webp" alt="Logo Mayor Optica" class="img_nav">
+              </a>
+            </div>
+          </nav>
+          <div class="container-fluid" id="#contenedor-navbar">
+            <a class="navbar-brand" href="#home" style="color:var(--naranja);">Mayor Óptica</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <div class="nav-item-items" onclick="document.location='#conocenos'">
+                    <a class="nav-link hover" href="#conocenos" style="color: #F3ECFF;">Conócenos</a>
+                    <div class="container-arrow">
+                      <img src="assets/imgs/icons/person-icon.webp" alt="">
+                    </div>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <div class="nav-item-items" onclick="document.location='#localizacion'">
+                    <a class="nav-link hover" href="#localizacion" style="color: #F3ECFF;">Localización</a>
+                    <div class="container-arrow">
+                      <img src="assets/imgs/icons/pin-icon.webp" alt="">
+                    </div>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <div class="nav-item-items" onclick="document.location='#contact'">
+                    <a class="nav-link hover" href="#contact" style="color: #F3ECFF;">Contacto</a>
+                    <div class="container-arrow">
+                      <img src="assets/imgs/icons/call-icon.webp" alt="">
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
           </div>
         </nav>
-        <div class="container-fluid" id="#contenedor-navbar">
-          <a class="navbar-brand" href="#home" style="color:var(--naranja);">Mayor Óptica</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <div class="nav-item-items" onclick="document.location='#conocenos'">
-                  <a class="nav-link hover" href="#conocenos" style="color: #F3ECFF;">Conócenos</a>
-                  <div class="container-arrow">
-                    <img src="assets/imgs/icons/person-icon.webp" alt="">
-                  </div>
-                </div>
-              </li>
-              <li class="nav-item">
-                <div class="nav-item-items" onclick="document.location='#localizacion'">
-                  <a class="nav-link hover" href="#localizacion" style="color: #F3ECFF;">Localización</a>
-                  <div class="container-arrow">
-                    <img src="assets/imgs/icons/pin-icon.webp" alt="">
-                  </div>
-                </div>
-              </li>
-              <li class="nav-item">
-                <div class="nav-item-items" onclick="document.location='#contact'">
-                  <a class="nav-link hover" href="#contact" style="color: #F3ECFF;">Contacto</a>
-                  <div class="container-arrow">
-                    <img src="assets/imgs/icons/call-icon.webp" alt="">
-                  </div>
-                </div>
-              </li>
-            </ul>
+      </div>
+      <div class="contenedor-imagen">
+        <div class="row">
+          <img fetchpriority="high" src="assets/imgs/icons/banner-recortado.webp" alt="">
+        </div>
+      </div>
+    </div>
+    <div fetchpriority="high" class="container-fluid" id="container-home">
+      <div class="container" id="container-img-home">
+        <img class="img-fluid rounded" fetchpriority="high" src="assets/imgs/tour/fachada.webp" alt="">
+      </div>
+      <div class="container-fluid container-home">
+        <div class="container" id="container-right-home">
+          <div class="container" id="container-bienvenido">
+            <div class="container-fluid" id="container-bienvenido-main">
+              <h1>Bienvenido a Mayor Óptica</h1>
+              <h3>Nos encontramos en Calle Mayor 142, Puente Tocinos, Murcia</h3>
+              <a id="start-button-pc" href="#conocenos" type="button" class="btn btn-primary">Comenzar</a>
+            </div>
+            <div class="col-sm-3" id="container-img-bienvenido">
+              <img src="assets/imgs/icons/glasses-brown.webp" fetchpriority="high" alt="" class="img-responsive"
+                id="home-glasses">
+            </div>
           </div>
         </div>
-      </nav>
-    </div>
-    <div class="contenedor-imagen">
-      <div class="row">
-        <img fetchpriority="high" src="assets/imgs/icons/banner-recortado.webp" alt="">
+        <div class="container" id="container-links">
+          <a
+            href="https://www.facebook.com/pages/category/Sunglasses---Eyewear-Store/Mayor-%C3%93ptica-Puente-Tocinos-100531738307720/">
+            <img src="assets/imgs/icons/facebook-icon.webp"></a>
+          <a
+            href="https://www.google.com/maps/place/Mayor+%C3%93ptica/@37.9944942,-1.1002023,1164m/data=!3m1!1e3!4m6!3m5!1s0xd6382e3b9f013eb:0x9a60fa7962e0e3c7!8m2!3d37.9951368!4d-1.0977561!16s%2Fg%2F1q5bmqm67?hl=es&entry=ttu">
+            <img src="assets/imgs/icons/maps-icon.webp"></a>
+          <a href="tel:986302325"> <img src="assets/imgs/icons/phone-icon.webp"></a>
+  
+        </div>
       </div>
     </div>
   </div>
-  <div fetchpriority="high" class="container-fluid" id="container-home">
-    <div class="container" id="container-img-home">
-      <img class="img-fluid rounded" fetchpriority="high" src="assets/imgs/tour/fachada.webp" alt="">
-    </div>
-    <div class="container-fluid container-home">
-      <div class="container" id="container-right-home">
-        <div class="container" id="container-bienvenido">
-          <div class="container-fluid" id="container-bienvenido-main">
-            <h1>Bienvenido a Mayor Óptica</h1>
-            <h3>Nos encontramos en Calle Mayor 142, Puente Tocinos, Murcia</h3>
-            <a id="start-button-pc" href="#conocenos" type="button" class="btn btn-primary">Comenzar</a>
-          </div>
-          <div class="col-sm-3" id="container-img-bienvenido">
-            <img src="assets/imgs/icons/glasses-brown.webp" fetchpriority="high" alt="" class="img-responsive"
-              id="home-glasses">
-          </div>
-        </div>
-      </div>
-      <div class="container" id="container-links">
-        <a
-          href="https://www.facebook.com/pages/category/Sunglasses---Eyewear-Store/Mayor-%C3%93ptica-Puente-Tocinos-100531738307720/">
-          <img src="assets/imgs/icons/facebook-icon.webp"></a>
-        <a
-          href="https://www.google.com/maps/place/Mayor+%C3%93ptica/@37.9944942,-1.1002023,1164m/data=!3m1!1e3!4m6!3m5!1s0xd6382e3b9f013eb:0x9a60fa7962e0e3c7!8m2!3d37.9951368!4d-1.0977561!16s%2Fg%2F1q5bmqm67?hl=es&entry=ttu">
-          <img src="assets/imgs/icons/maps-icon.webp"></a>
-        <a href="tel:986302325"> <img src="assets/imgs/icons/phone-icon.webp"></a>
 
-      </div>
-    </div>
-  </div>
+  
   <div class="banner-mobile">
     <img fetchpriority="high" src="assets/imgs/tour/fachada-2-arreglado-phone-transformed.webp" class="img-fluid">
     <div class="overlay overlay_2">

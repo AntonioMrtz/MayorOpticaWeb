@@ -221,14 +221,14 @@ h2 {
 #container-home {
 
     display: flex;
+    flex: 1;
     flex-direction: row;
-    padding: 5% 0% 5% 5%;
-
+    /*     padding: 5% 0% 5% 5%;
+ */
     background-image: url(assets/imgs/backgrounds/orange-waves-duller.webp);
     align-items: center;
     border-bottom: 1.5rem solid var(--marron-boton);
-
-
+    flex-grow: 1;
 }
 
 #container-img-home {
@@ -324,8 +324,6 @@ h2 {
 #container-bienvenido-main a {
 
     border-radius: 14px;
-    /*  width: 60%;
-    height: 30%; */
     margin-left: auto;
     margin-right: auto;
     margin-top: 7%;
@@ -342,6 +340,12 @@ h2 {
     border-color: #471E00;
     width: 50%;
     height: 30%;
+
+}
+
+#container-bienvenido-main a:hover {
+
+    transform: scale(1.04);    
 
 }
 
@@ -1097,6 +1101,10 @@ footer a:hover p {
 
 
 @media (max-width:990px) {
+
+    #main-page{
+        height: auto !important;
+    }
 
     #header {
 
