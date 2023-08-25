@@ -233,8 +233,6 @@ h2 {
     display: flex;
     flex: 1;
     flex-direction: row;
-    /*     padding: 5% 0% 5% 5%;
- */
     background-image: url(assets/imgs/backgrounds/orange-waves-duller.webp);
     align-items: center;
     border-bottom: 1.5rem solid var(--marron-boton);
@@ -246,6 +244,12 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 6px;
+}
+
+#container-img-home img{
+
+    padding: 5%;
 }
 
 #container-bienvenido {
