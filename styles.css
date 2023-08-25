@@ -70,6 +70,16 @@ h2 {
 
 }
 
+#sticky-button-container:hover {
+
+    transform: scale(1.1);
+}
+
+#sticky-button-container:hover .material-symbols-outlined {
+    background-color: var(--naranja-claro);
+
+}
+
 #sticky-button-container i {
 
     padding: 25%;
@@ -345,7 +355,7 @@ h2 {
 
 #container-bienvenido-main a:hover {
 
-    transform: scale(1.04);    
+    transform: scale(1.04);
 
 }
 
@@ -1102,7 +1112,7 @@ footer a:hover p {
 
 @media (max-width:990px) {
 
-    #main-page{
+    #main-page {
         height: auto !important;
     }
 
