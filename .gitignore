@@ -1,65 +1,24 @@
-# Node modules (if using Node.js)
+# build output
+dist/
+
+# generated types
+.astro/
+
+# dependencies
 node_modules/
 
-# Build directories (if using a build tool)
-dist/
-build/
-
-# Logs
+# logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
 
-# Dependency directories
-bower_components/
-
-# Optional npm cache directory
-.npm
-
-# Optional eslint cache
-.eslintcache
-
-# Optional stylelint cache
-.stylelintcache
-
-# Optional REPL history
-.node_repl_history
-
-# dotenv environment variables file
+# environment variables
 .env
-.env.local
-.env.*.local
+.env.production
 
-# Temporary files
-tmp/
-temp/
-
-# MacOS specific
+# macOS-specific files
 .DS_Store
 
-# Windows specific
-Thumbs.db
-ehthumbs.db
-
-# Linux specific
-*.swp
-
-# IDEs and editors
+# jetbrains setting folder
 .idea/
-*.sublime-project
-*.sublime-workspace
-
-# Compiled JavaScript files (if using TypeScript or CoffeeScript)
-*.tsbuildinfo
-*.js.map
-*.ts.map
-
-# Build artifacts (if using Gulp or Grunt)
-.jshintrc
-.jscsrc
-.jshintignore
-.gulp/
-.grunt/
-
-
-.astro/

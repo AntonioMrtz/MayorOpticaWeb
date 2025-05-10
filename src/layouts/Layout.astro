@@ -1,0 +1,42 @@
+---
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "../styles/global.css";
+
+const {title} = Astro.props
+
+---
+
+<!doctype html>
+<html lang="es">
+	<head>
+		  <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta name="description" content="Mayor Óptica Puente Tocinos">
+      <meta name="keywords"
+        content="óptica,Puente Tocinos,Murcia,gafas de sol,gafas graduadas,lentes de contacto,revisión visual,optometría,salud visual,Monturas,Mayor Óptica,óptica en Puente Tocinos,servicios de óptica,comprar gafas,tienda de gafas,óptica cerca de mí,lentes progresivas,examen de la vista,óptico,asesoramiento óptico,óptica de confianza" />
+      <meta name="author" content="Antonio Martínez Fernández">
+      <meta property="og:image"
+        content="https://raw.githubusercontent.com/AntonioMrtz/MayorOpticaWeb/master/public/logo.png" />
+      <meta property="og:image:secure_url"
+        content="https://raw.githubusercontent.com/AntonioMrtz/MayorOpticaWeb/master/public/logo.png" />
+      <meta property="og:image:type" content="image/png" />
+      <meta property="og:image:width" content="400" />
+      <meta property="og:image:height" content="300" />
+      <title>{title}</title>
+      <!-- <link defer rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+      <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+      <script src="index.js" defer></script> -->
+      <link rel="icon" type="image/svg+xml" href="/logo.png">
+      <link rel="canonical" href="https://antoniomrtz.github.io/MayorOpticaWeb/" />
+
+      <!-- TODO remove -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+
+      <!-- Astro -->
+      <meta name="generator" content={Astro.generator} />
+      <link rel="sitemap" href="/sitemap-index.xml" />
+	</head>
+	<body>
+		<slot />
+	</body>
+</html>

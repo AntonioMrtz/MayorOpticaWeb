@@ -1,0 +1,15 @@
+---
+import Footer from '../components/footer/Footer.astro';
+import Sidebar from '../components/sidebar/Sidebar.astro';
+import Layout from '../layouts/Layout.astro';
+import Landing from './Landing.astro';
+
+const title = 'Mayor Óptica - Tu óptica en Puente Tocinos';
+
+---
+
+<Layout title={title}>
+  <Sidebar />
+  <Landing />
+  <Footer />
+</Layout>
