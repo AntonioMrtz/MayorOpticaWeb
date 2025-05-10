@@ -6,7 +6,7 @@
 <div style='display:flex;align-content:center'>
 
   <image src="https://cdn.icon-icons.com/icons2/3053/PNG/512/google_maps_macos_bigsur_icon_190117.png" style='width:24px'></image>
-  [Google Maps](https://goo.gl/maps/RSQb5gg4NfQNF8u19) <br>
+  [Google Maps](https://maps.app.goo.gl/hsraWC2STbVsQN997) <br>
   <image src="https://cdn.icon-icons.com/icons2/555/PNG/512/facebook_icon-icons.com_53612.png" style='width:24px'></image>
   [Facebook](https://www.facebook.com/people/Mayor-%C3%93ptica-Puente-Tocinos/100054706842854/)<br>
   <image src="https://cdn.icon-icons.com/icons2/1584/PNG/512/3721672-instagram_108066.png" style='width:24px'></image>
