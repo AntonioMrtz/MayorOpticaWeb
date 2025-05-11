@@ -1,7 +1,10 @@
 :root {
+  /* TODO rename english */
   --negro: #0f0f0f;
+  /* primary */
   --naranja: #e9820d;
   --naranja-claro: #f5b770;
+  /* others */
   --blanco: #fefefa;
   --marron-boton: #471e00;
   --marron-background-oscuro: #160a01;
@@ -38,7 +41,7 @@ h2 {
   font-weight: 700 !important;
 }
 
-#sticky-button-container .material-symbols-outlined {
+/* #sticky-button-container .material-symbols-outlined {
   color: var(--blanco);
   background-color: var(--naranja);
   font-size: 2rem;
@@ -73,7 +76,7 @@ h2 {
 
 #sticky-button-container i {
   padding: 25%;
-}
+} */
 
 .scroll {
   visibility: visible !important;
@@ -100,4 +103,16 @@ h2 {
 
 .hover:hover {
   --_p: 100%;
+}
+
+
+/*  */
+
+.primary-hover:hover{
+  color: var(--naranja-claro) !important;
+}
+
+.primary-scale-hover:hover{
+  color: var(--naranja-claro) !important;
+  transform: scale(1.1) !important;
 }

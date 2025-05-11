@@ -10,6 +10,8 @@ export default defineConfig({
   vite: {
     plugins: []
   },
-  site:"https://antoniomrtz.github.io/MayorOpticaWeb/",
+  site:"https://antoniomrtz.github.io",
+  base: "/MayorOpticaWeb",
+  compressHTML: true,
   integrations: [sitemap()]
 });

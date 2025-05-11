@@ -1,0 +1,32 @@
+---
+import { type Link } from '@src/data/links';
+
+interface Props {
+  sectionName: string;
+  links: (Link | undefined)[];
+}
+
+const { sectionName, links } = Astro.props;
+---
+
+<h6 class="text-uppercase fw-bold">{sectionName}</h6>
+<hr
+  class="mb-4 mt-0 d-inline-block mx-auto"
+  style="width: 60px; background-color: var(--naranja); height: 2px"
+/>
+{
+  links.map((link) => (
+    <a href={link?.link} target="_blank" class="text-white primary-hover">
+      <p>
+        <i class={`${link?.icon} me-2`} />
+        {link?.displayName}
+      </p>
+    </a>
+  ))
+}
+
+<style>
+  i{
+    color: inherit !important;
+  }
+</style>

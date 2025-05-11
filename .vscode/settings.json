@@ -1,6 +1,10 @@
 {
     "editor.tabSize": 2,
     "editor.insertSpaces": true,
+    "css.styleSheets": [
+        "node_modules/bootstrap/dist/css/bootstrap.css",
+        "src/**/*.css"
+    ],
     "[astro]": {
         "editor.tabSize": 2,
         "editor.insertSpaces": true
@@ -26,5 +30,5 @@
         "editor.insertSpaces": true
     },
     "files.insertFinalNewline": true,
-    "files.trimTrailingWhitespace": true
+    "files.trimTrailingWhitespace": true,
 }
