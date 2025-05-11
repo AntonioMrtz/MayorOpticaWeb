@@ -1,0 +1,25 @@
+name: Prettier style check
+
+on:
+  pull_request:
+    branches:
+      - "master"
+      - "master-*"
+
+jobs:
+  prettier:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Run prettier format check
+        run: |
+          npm install
+          npm run format:check
